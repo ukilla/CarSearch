@@ -43,8 +43,8 @@ export function fetchUserInputCar(
           car.manufacturer === manufacturer &&
           car.model === model &&
           car.engine === engine &&
-          car.manufacturingYearFrom === manufacturingYearFrom &&
-          car.manufacturingYearTo === manufacturingYearTo
+          car.manufacturingYearFrom <= manufacturingYearFrom &&
+          car.manufacturingYearTo >= manufacturingYearTo
         );
       });
     }),

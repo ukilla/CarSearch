@@ -191,8 +191,12 @@ function updateFilteredEngines() {
 
 function createCarInfoDiv(car: any) {
   const test = document.querySelector(".noCarsDiv");
+  const test2 = document.querySelector(".car-info");
   if (test) {
     test.remove();
+  }
+  if (test2) {
+    test2.remove();
   }
   const carInfoDiv = document.createElement("div");
   carInfoDiv.classList.add("car-info");
@@ -246,11 +250,10 @@ function createCarInfoDiv(car: any) {
 
 function createNoCarInfo() {
   const test = document.querySelector(".noCarsDiv");
-  const test2=document.querySelector('.car-info')
+  const test2 = document.querySelector(".car-info");
   if (test) {
     test.remove();
-  }
-  else if(test2){
+  } else if (test2) {
     test2.remove();
   }
   const noCarsDiv = document.createElement("div");
