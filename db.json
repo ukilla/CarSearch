@@ -1,0 +1,410 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "manufacturer": "Toyota",
+      "model": "Camry",
+      "engines": ["4-cylinder", "V6"],
+      "manufacturingYearFrom": 2020,
+      "manufacturingYearTo": 2022
+    },
+    {
+      "id": 2,
+      "manufacturer": "Honda",
+      "model": "Civic",
+      "engines": ["4-cylinder"],
+      "manufacturingYearFrom": 1993,
+      "manufacturingYearTo": 1998
+    },
+    {
+      "id": 3,
+      "manufacturer": "Ford",
+      "model": "Mustang",
+      "engines": ["V6", "V8"],
+      "manufacturingYearFrom": 2021,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 4,
+      "manufacturer": "BMW",
+      "model": "M3",
+      "engines": ["Inline-6"],
+      "manufacturingYearFrom": 1993,
+      "manufacturingYearTo": 1998
+    },
+    {
+      "id": 5,
+      "manufacturer": "Chevrolet",
+      "model": "Camaro",
+      "engines": ["V6", "V8"],
+      "manufacturingYearFrom": 2016,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 6,
+      "manufacturer": "Audi",
+      "model": "A3",
+      "engines": ["4-cylinder", "Inline-5"],
+      "manufacturingYearFrom": 2014,
+      "manufacturingYearTo": 2022
+    },
+    {
+      "id": 10,
+      "manufacturer": "Audi",
+      "model": "A5",
+      "engines": ["4-cylinder", "V6"],
+      "manufacturingYearFrom": 2015,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 11,
+      "manufacturer": "Audi",
+      "model": "A6",
+      "engines": ["4-cylinder", "V6"],
+      "manufacturingYearFrom": 2012,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 12,
+      "manufacturer": "Audi",
+      "model": "A7",
+      "engines": ["V6", "V8"],
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 13,
+      "manufacturer": "BMW",
+      "model": "3 Series",
+      "engines": ["4-cylinder", "Inline-6"],
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 14,
+      "manufacturer": "BMW",
+      "model": "5 Series",
+      "engines": ["4-cylinder", "V8"],
+      "manufacturingYearFrom": 2005,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 15,
+      "manufacturer": "BMW",
+      "model": "6 Series",
+      "engines": ["Inline-6", "V8"],
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023
+    },
+    {
+      "id": 16,
+      "manufacturer": "BMW",
+      "model": "7 Series",
+      "engines": ["Inline-6", "V12"],
+      "manufacturingYearFrom": 2000,
+      "manufacturingYearTo": 2023
+    }
+  ],
+  "carsPerformance": [
+    {
+      "id": 1,
+      "manufacturer": "Toyota",
+      "model": "Camry",
+      "engine": "4-cylinder",
+      "manufacturingYearFrom": 2020,
+      "manufacturingYearTo": 2022,
+      "horsepower": 203,
+      "laps": {
+        "Nürburgring Nordschleife": "8:00",
+        "Laguna Seca": "1:45"
+      },
+      "suspension": {
+        "Front": "MacPherson struts with coil springs",
+        "Rear": "Multi-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "Sport-tuned suspension included"
+      },
+      "description": "The Toyota Camry is a family sedan with a sporty side. With its 4-cylinder engine and sport-tuned suspension, it offers a fun and responsive driving experience. The Camry handles well around corners and delivers a comfortable ride for daily commuting."
+    },
+    {
+      "id": 2,
+      "manufacturer": "Honda",
+      "model": "Civic",
+      "engine": "4-cylinder",
+      "manufacturingYearFrom": 1993,
+      "manufacturingYearTo": 1998,
+      "horsepower": 160,
+      "laps": {
+        "Spa-Francorchamps": "2:10",
+        "Monza": "1:55"
+      },
+      "suspension": {
+        "Front": "Double wishbone suspension",
+        "Rear": "Independent multi-link rear suspension",
+        "Shock absorbers": "Comfort-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Standard ride height",
+        "Bushings and bearings": "Standard bushings",
+        "Sport packages": "No sport-tuned suspension"
+      },
+      "description": "The Honda Civic is a compact car known for its reliability. While it may not be a sports car, it offers a comfortable and efficient driving experience. The Civic is great for daily commuting and provides a smooth ride on the highway."
+    },
+    {
+      "id": 3,
+      "manufacturer": "Ford",
+      "model": "Mustang",
+      "engine": "V8",
+      "manufacturingYearFrom": 2021,
+      "manufacturingYearTo": 2023,
+      "horsepower": 450,
+      "laps": {
+        "Nürburgring Nordschleife": "7:30",
+        "Laguna Seca": "1:40"
+      },
+      "suspension": {
+        "Front": "Independent MacPherson strut",
+        "Rear": "Independent multi-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "Sport-tuned suspension included"
+      },
+      "description": "The Ford Mustang is an American muscle car with a powerful V8 engine. It's designed for speed and delivers thrilling performance. The Mustang is known for its straight-line speed and aggressive styling. It's perfect for those who love the roar of a powerful engine."
+    },
+    {
+      "id": 7,
+      "manufacturer": "BMW",
+      "model": "330i",
+      "engine": "inline-6",
+      "manufacturingYearFrom": 2020,
+      "manufacturingYearTo": 2022,
+      "horsepower": 255,
+      "laps": {
+        "Nürburgring Nordschleife": "7:50",
+        "Spa-Francorchamps": "2:25"
+      },
+      "suspension": {
+        "Front": "Double-joint spring strut front axle",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "M Sport suspension included"
+      },
+      "description": "The BMW 330i is a luxury sedan with a sporty edge. Equipped with a 4-cylinder engine and sport-tuned suspension, it offers a perfect balance of performance and comfort. The 330i handles corners with precision and provides a smooth ride on long journeys."
+    },
+    {
+      "id": 8,
+      "manufacturer": "Chevrolet",
+      "model": "Camaro",
+      "engine": "V8",
+      "manufacturingYearFrom": 2016,
+      "manufacturingYearTo": 2023,
+      "horsepower": 455,
+      "laps": {
+        "Nürburgring Nordschleife": "7:25",
+        "Laguna Seca": "1:37"
+      },
+      "suspension": {
+        "Front": "MacPherson struts with coil springs",
+        "Rear": "Multi-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "SS 1LE Performance Suspension included"
+      },
+      "description": "The Chevrolet Camaro is an American classic with a powerful V8 engine. It's built for speed and offers impressive acceleration. The Camaro's sport-tuned suspension ensures tight handling and responsive steering. It's a true muscle car enthusiast's dream."
+    },
+    {
+      "id": 9,
+      "manufacturer": "Audi",
+      "model": "A3",
+      "engine": "4-cylinder",
+      "manufacturingYearFrom": 2014,
+      "manufacturingYearTo": 2022,
+      "horsepower": 220,
+      "laps": {
+        "Nürburgring Nordschleife": "8:10",
+        "Spa-Francorchamps": "2:30"
+      },
+      "suspension": {
+        "Front": "MacPherson strut front suspension",
+        "Rear": "Four-link rear suspension",
+        "Shock absorbers": "Specially tuned for sporty handling",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Sport-tuned ride height",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "S line sport suspension included"
+      },
+      "description": "The Audi A3 is a premium compact car with a focus on sportiness. Its 4-cylinder engine delivers a balance of power and efficiency. The sport-tuned suspension ensures precise handling and agility, making the A3 a joy to drive on twisty roads."
+    },
+    {
+      "id": 10,
+      "manufacturer": "Audi",
+      "model": "A5",
+      "engine": "V6",
+      "manufacturingYearFrom": 2015,
+      "manufacturingYearTo": 2023,
+      "horsepower": 350,
+      "laps": {
+        "Nürburgring Nordschleife": "8:20",
+        "Spa-Francorchamps": "2:35"
+      },
+      "suspension": {
+        "Front": "Multi-link front suspension",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "S line sport suspension included"
+      },
+      "description": "The Audi A5 combines style with performance. With a V6 engine and sport-tuned suspension, it offers a thrilling driving experience while maintaining Audi's signature elegance."
+    },
+    {
+      "id": 11,
+      "manufacturer": "Audi",
+      "model": "A6",
+      "engine": "V6",
+      "manufacturingYearFrom": 2012,
+      "manufacturingYearTo": 2023,
+      "horsepower": 340,
+      "laps": {
+        "Nürburgring Nordschleife": "8:25",
+        "Spa-Francorchamps": "2:40"
+      },
+      "suspension": {
+        "Front": "Five-link front suspension",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "S line sport suspension included"
+      },
+      "description": "The Audi A6 offers a blend of luxury and performance. Its V6 engine and sport-tuned suspension ensure a comfortable yet dynamic driving experience."
+    },
+    {
+      "id": 12,
+      "manufacturer": "Audi",
+      "model": "A7",
+      "engine": "V8",
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023,
+      "horsepower": 450,
+      "laps": {
+        "Nürburgring Nordschleife": "7:45",
+        "Spa-Francorchamps": "2:20"
+      },
+      "suspension": {
+        "Front": "Multi-link front suspension",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "S7 sport suspension included"
+      },
+      "description": "The Audi A7 is a luxurious sports sedan. With a powerful V8 engine and sport-tuned suspension, it offers both style and thrilling performance."
+    },
+    {
+      "id": 13,
+      "manufacturer": "BMW",
+      "model": "3 Series",
+      "engine": "Inline-6",
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023,
+      "horsepower": 320,
+      "laps": {
+        "Nürburgring Nordschleife": "8:10",
+        "Spa-Francorchamps": "2:30"
+      },
+      "suspension": {
+        "Front": "Double-joint spring strut front axle",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "M Sport suspension included"
+      },
+      "description": "The BMW 3 Series is a sporty luxury sedan. Equipped with an Inline-6 engine and sport-tuned suspension, it delivers a perfect balance of performance and comfort."
+    },
+    {
+      "id": 14,
+      "manufacturer": "BMW",
+      "model": "5 Series",
+      "engine": "V8",
+      "manufacturingYearFrom": 2005,
+      "manufacturingYearTo": 2023,
+      "horsepower": 450,
+      "laps": {
+        "Nürburgring Nordschleife": "7:40",
+        "Spa-Francorchamps": "2:25"
+      },
+      "suspension": {
+        "Front": "Double-joint spring strut front axle",
+        "Rear": "Five-link rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "M550i xDrive suspension included"
+      },
+      "description": "The BMW 5 Series is a blend of luxury and performance. With a V8 engine and sport-tuned suspension, it offers a thrilling driving experience while maintaining comfort."
+    },
+    {
+      "id": 15,
+      "manufacturer": "BMW",
+      "model": "6 Series",
+      "engine": "V8",
+      "manufacturingYearFrom": 2010,
+      "manufacturingYearTo": 2023,
+      "horsepower": 500,
+      "laps": {
+        "Nürburgring Nordschleife": "7:30",
+        "Spa-Francorchamps": "2:15"
+      },
+      "suspension": {
+        "Front": "Double-joint spring strut front axle",
+        "Rear": "Integral-V rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "M6 Gran Coupe suspension included"
+      },
+      "description": "The BMW 6 Series is a luxury sports coupe. With a powerful V8 engine and sport-tuned suspension, it offers a thrilling driving experience in an elegant package."
+    },
+    {
+      "id": 16,
+      "manufacturer": "BMW",
+      "model": "7 Series",
+      "engine": "V12",
+      "manufacturingYearFrom": 2000,
+      "manufacturingYearTo": 2023,
+      "horsepower": 600,
+      "laps": {
+        "Nürburgring Nordschleife": "7:20",
+        "Spa-Francorchamps": "2:10"
+      },
+      "suspension": {
+        "Front": "Double-joint spring strut front axle",
+        "Rear": "Integral-V rear suspension",
+        "Shock absorbers": "Sport-tuned shock absorbers",
+        "Anti-roll Bars": "Front and rear anti-roll bars",
+        "Ride height": "Lowered for sporty handling",
+        "Bushings and bearings": "Performance-grade bushings",
+        "Sport packages": "M760i xDrive suspension included"
+      },
+      "description": "The BMW 7 Series is a luxury sedan with a V12 engine. Its sport-tuned suspension offers both comfort and superb handling, making it a top choice for those who seek performance and luxury."
+    }
+    
+  ]
+}

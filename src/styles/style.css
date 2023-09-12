@@ -1,0 +1,108 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+select,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+select,
+input[type="number"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.car-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+}
+
+.suspension-list {
+  padding-left: 0;
+}
+
+.suspension-list li {
+  list-style-type: none;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
